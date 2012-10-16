@@ -43,6 +43,20 @@
         <hudson.sign.keystore>dummy.keystore</hudson.sign.keystore>
         <hudson.sign.storepass>hudson</hudson.sign.storepass>
     </properties>
+    
+     <licenses>
+        <license>
+            <name>Eclipse Public License v1.0</name>
+            <url>http://www.eclipse.org/legal/epl-v10.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    
+    <scm>
+        <connection>scm:git:git://git.eclipse.org/gitroot/hudson/org.eclipse.hudson.remoting.git</connection>
+        <developerConnection>scm:git:git://git.eclipse.org/gitroot/hudson/org.eclipse.hudson.remoting.git</developerConnection>
+        <url>http://git.eclipse.org/c/hudson/org.eclipse.hudson.remoting.git/</url>
+    </scm>
 
     <build>
         <plugins>
